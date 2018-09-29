@@ -1,0 +1,19 @@
+body {
+background-color: transparent;
+display: flex;
+height: 100vh;
+}
+
+svg {
+margin: auto;
+width: 300px;
+height: 300px;
+max-height: 100vmin;
+max-width: 100vmin;
+}
+
+.wave {
+stroke: #fff;
+fill: #000;
+stroke-width: 4px;
+}
