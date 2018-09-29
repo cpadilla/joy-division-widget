@@ -32,7 +32,7 @@ function joyDivision(svgElement) {
             var bg = noiseBackground[i][n / (WIDTH / NUM_POINTS)];
             var xDistFromMouse = (cx - n);
             var dx = xDistFromMouse * 5;
-            var yDistFromMouse = (cx - n);
+            var yDistFromMouse = (cy - y);
             var dy = yDistFromMouse * 1;
             var distance = Math.sqrt(dx * dx + dy * dy) * 0.5 + 15;
             var randomScale = 10.2;
